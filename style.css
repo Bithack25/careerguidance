@@ -376,7 +376,7 @@ footer {
 
 .chatbox h2 {
   padding: 16px;
-  background: #7f56d9;
+  background:  #4CAF50;
   color: white;
   font-size: 20px;
   text-align: center;
@@ -454,7 +454,7 @@ footer {
   margin-left: 12px;
   padding: 10px 14px;
   border: none;
-  background: #7f56d9;
+  background: #4CAF50;
   border-radius: 50%;
   color: white;
   font-size: 18px;
@@ -463,7 +463,7 @@ footer {
 }
 
 .chat-input button:hover {
-  background: #6b46c1;
+  background: #0184ff;
 }
 
 

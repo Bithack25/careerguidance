@@ -36,7 +36,7 @@
 
   </style>
 </head>
-<body >
+<body style="background-image: url(chatimg.jpg);background-position: center;background-size: cover;background-repeat: no-repeat;">
 
   <header>
     <div class="container">
@@ -65,33 +65,29 @@
     <div class="overlay"></div>
     </div>
 </header>
- 
-<div class="video-background">
-  <video autoplay muted loop id="bg-video">
-    <source src="chat.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
 
+  
+    <div class="chatbox" id="chat" style="width: 1500px;"> 
+      <h2>How can I assist you with your career path?</h2>
+      <div id="messages">
+        <div class="message bot">
+          Hello! I'm your AI Career Advisor. I can help you explore career options based on your interests, skills, and academic strengths. What would you like to know about career paths?
+        </div>
+      </div>
+      <div class="quick">
+        <button onclick="sendMessage('What careers match my interests in technology?')">Tech careers</button>
+        <button onclick="sendMessage('What skills do I need for a career in healthcare?')">Healthcare skills</button>
+        <button onclick="sendMessage('What education is needed for engineering?')">Engineering education</button>
+        <button onclick="sendMessage('Tell me about careers in creative fields')">Creative careers</button>
+        <button onclick="sendMessage('Which careers have the best job outlook?')">Top job outlook</button>
+      </div>
+      <div class="chat-input">
+        <input id="input" type="text" placeholder="Ask about career paths, skills, or education...">
+        <button class="send" onclick="sendMessage()">&#8679;</button>
+      </div>
+    </div>    
 
-      <div class="chatbox" id="chat"> 
-        <h2>How can I assist you with your career path?</h2>
-        <div id="messages">
-          <div class="message bot">
-            Hello! I'm your AI Career Advisor. I can help you explore career options based on your interests, skills, and academic strengths. What would you like to know about career paths?
-          </div>
-        </div>
-        <div class="quick">
-          <button onclick="sendMessage('What careers match my interests in technology?')">Tech careers</button>
-          <button onclick="sendMessage('What skills do I need for a career in healthcare?')">Healthcare skills</button>
-          <button onclick="sendMessage('What education is needed for engineering?')">Engineering education</button>
-          <button onclick="sendMessage('Tell me about careers in creative fields')">Creative careers</button>
-          <button onclick="sendMessage('Which careers have the best job outlook?')">Top job outlook</button>
-        </div>
-        <div class="chat-input">
-          <input id="input" type="text" placeholder="Ask about career paths, skills, or education...">
-          <button class="send" onclick="sendMessage()">&#8679;</button>
-        </div>
-      </div>    
+    
    
       
 
