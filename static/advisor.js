@@ -17,7 +17,7 @@ function sendMessage(text = null) {
 
   messages.scrollTop = messages.scrollHeight;
 
-  fetch("http://127.0.0.1:5000/api", {
+  fetch("https://career-weave.onrender.com/api", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message })
