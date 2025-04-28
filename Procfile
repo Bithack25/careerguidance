@@ -1,2 +1,2 @@
-gunicorn app:app --workers 3 --timeout 120
+gunicorn app:app --workers 3
 
